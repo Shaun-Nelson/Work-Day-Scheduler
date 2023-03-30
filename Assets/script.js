@@ -29,7 +29,7 @@ $(function () {
 
     if (currentHour > id) {
       $(timeBlocks[i]).attr("class", "row time-block past");
-    } else if (currentHour === id) {
+    } else if (currentHour == id) {
       $(timeBlocks[i]).attr("class", "row time-block present");
     } else {
       $(timeBlocks[i]).attr("class", "row time-block future");
