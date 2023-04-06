@@ -54,6 +54,6 @@ $(function () {
     }
   }
 
-  // Displays the current date in the header of the page.
+  // Displays the current date in the header of the page
   $("#currentDay").text(dayjs().format("dddd, MMMM D, YYYY "));
 });
